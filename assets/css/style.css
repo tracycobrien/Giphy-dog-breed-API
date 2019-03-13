@@ -1,0 +1,24 @@
+.breeds {
+	float: left;
+}
+#dog-form {
+	color: white;
+	font-size: 20px;
+	margin: 0;
+}
+.panel-heading{
+	margin: 0;
+}
+button {
+	margin: 1px;
+	background: #008080;
+	color: white;
+}
+
+html{
+    background:url("../images/dogbone.png");
+}
+
+h1 {
+    text-align: center;
+}
