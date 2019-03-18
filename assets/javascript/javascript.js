@@ -48,7 +48,7 @@ $(document).ready(function () {
 
 
 	function renderButtons() {
-		// Clears CartoonButtons Div
+		// Clears DogButtons Div
 		$("#dogButtons").empty();
 
 		// Looping through topics
