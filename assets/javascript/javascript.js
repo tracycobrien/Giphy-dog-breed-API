@@ -4,12 +4,12 @@ $(document).ready(function () {
 
 	function displayTopicInfo() {
 		var dogBreeds = $(this).attr("data-name");
-		var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=HBkIDuDrdJM8V0nTkA1SXAfs8a6jGP9q&q=" + dogBreeds +"&limit=10&offset=0&rating=G&lang=en";
+		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + dogBreeds +"&api_key=HBkIDuDrdJM8V0nTkA1SXAfs8a6jGP9q&limit=10&offset=0&rating=G&lang=en";
 
 		$.ajax({
 			url: queryURL,
 			method: "GET"
-		}).then(function (response) {
+		}).done(function (response) {
 			//sets the Length for the next loop
 			var results = response.data;
 			//Clear Previous images
