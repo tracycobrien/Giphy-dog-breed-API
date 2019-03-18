@@ -9,7 +9,7 @@ $(document).ready(function () {
 		$.ajax({
 			url: queryURL,
 			method: "GET"
-		}).done(function (response) {
+		}).then(function (response) {
 			//sets the Length for the next loop
 			var results = response.data;
 			//Clear Previous images
