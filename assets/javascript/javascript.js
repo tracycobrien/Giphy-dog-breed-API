@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready() {
 	//Array of Topics to use for Buttons
 	var topics = ["poodle", "pomeranian", "golden retriever", "chihuahua", "german shepard", "maltese", "collie", "dalmation", "beagle", "dobermann", "akita"]
 
@@ -111,5 +111,5 @@ $(document).ready(function () {
 			// console.log(this);
 		};
 	};
-})
+};
 
